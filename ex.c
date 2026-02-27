@@ -8,10 +8,6 @@ int ler_dado(char texto[]) {
     printf("%s", texto);
     scanf("%d", &t);
     return t;
-
-
-
-
 }
 
 int calcula_area(int b, int h) {
@@ -28,10 +24,9 @@ int main () {
     area = calcula_area(base, altura);
     printf("Area = %d\n", area);
 
-
-
     return 0;
 }
+
 
 
 
